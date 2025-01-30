@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.konan.target.HostManager
 
 plugins {
-    kotlin("multiplatform")
+    kotlin("multiplatform") version "2.0.10"
     kotlin("plugin.serialization")
     id("com.vanniktech.maven.publish")
     id("binary-compatibility-validator")
